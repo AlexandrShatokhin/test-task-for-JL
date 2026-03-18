@@ -1,5 +1,7 @@
+const BASE_PATH = '/test-task-for-JL/';
+
 export const API_URLS = {
-  projects: '/api/media/files/hr/frontend/projects.json',
-  users: '/api/media/files/hr/frontend/users.json',
-  tasks: '/api/media/files/hr/frontend/tasks.json'
+  projects: `${BASE_PATH}data/projects.json`,
+  users: `${BASE_PATH}data/users.json`,
+  tasks: `${BASE_PATH}data/tasks.json`
 } as const;
